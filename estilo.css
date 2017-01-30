@@ -131,14 +131,18 @@ float: left;
   border-radius: 10px;
 }
 .col-md-4{
-  width: 33.33333333333333333333333333%;
+  width: 33.333%;
   float: left;
   text-align: center;
+  color: black;
+}
+.col-md-4 p{
+  color: white;
 }
 #sessaoUm {
   padding-top: 100px;
   padding-bottom: 100px;
-
+  background-color: #666;
 }
 .introducaoSessaum h2{
   font-size: 45px;
@@ -232,6 +236,23 @@ float: left;
  padding: 25px 50px;
  border-radius: 10px;
 
+}
+.img {
+    float: left;
+    width: 33.333%;
+}
+.img:hover {
+    border: 1px solid #0066cc;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 footer{
   width: 100%;
