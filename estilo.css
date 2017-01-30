@@ -37,6 +37,378 @@ body{
 /*Nav bar do site*/
 #navbarTopo{
   padding-top: 20px;
+  width: 100%;
+  position: relative;
+}
+/*colocando o menu ao centro da pagina*/
+.navbarCentro{
+  list-style: none;
+  text-align: center;
+}
+.navbarCentro li{
+  margin-right: 20px;
+  display: inline-block;
+}
+.navbarCentro li a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navbarCentro li a:hover{
+  transition: color 1s;
+  color: #0066cc;
+}
+/*formatação da logo*/
+  .logomarca{
+  float: left;
+  font-size: 30px;
+
+}
+.logomarca img{
+  width: 75px;
+}
+/* AQUI é a separação do do menu em duas partes uma pra esquerda da logo e outra para a direita*/
+.linha_embaixo_menu_esquerda{
+ float: left;
+   border-bottom: 5px solid blue;
+  padding: 10px;
+  width: 400px;
+}
+.linha_embaixo_menu_direita{
+ float: left;
+   border-bottom: 5px solid #cecece;
+  padding: 10px;
+  width: 400px;
+
+}
+.linha_embaixo_menu_direita li{
+padding-right: 10px;
+float: left;
+}
+.linha_embaixo_menu_esquerda li{
+  padding-left: 10px;
+  float: right;
+}
+
+/*CAIXA DE INFORMAÇOES NO HEADER*/
+.Informacoes{
+  position: relative;
+  margin-top: 300px;
+  text-align: center;
+}
+.Informacoes h1{
+  color: #cecece;
+  font-size: 130px;
+}
+.Informacoes{
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+
+.Informacoes p{
+  padding-bottom: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+.Informacoes a{
+  background-color: #0066cc;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+.Informacoes a:hover{
+  transition:color 2s,background-color 1s;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+
+}
+.Informacoes img{
+ width: 500px;
+}
+.Tranparencia_col{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+
+}
+.caixa{
+  margin-bottom: 10px;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.linha_horizontal
+  {
+    float: right;
+    border-right:  2px solid white;
+    padding: 2px;
+    height: 200px;
+  }
+.linha_embaixo_caixa_direita {
+    float: right;
+      border-bottom: 5px solid #cecece;
+     padding: 2px;
+     width: 200px;;
+  }
+
+.introHome{
+  text-align: center;
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  left: calc(50% - 300px);
+  top: calc(50% - 100px);
+}
+.introHome h1{
+  font-size: 40px;
+  color: white;
+}
+.introHome h3{
+  margin-top: 10px;
+  font-size: 20px;
+  color: grey;
+}
+.introHome a{
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+  background-color: #2651a8;
+  color: #fff;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+#mej .col-md-4{
+  width: 33.333%;
+  height: 594.33px;
+  float: left;
+  text-align: center;
+  color: black;
+}
+.col-md-4{
+  float: left;
+  text-align: center;
+  color: black;
+}
+.col-md-4 p{
+  color: white;
+}
+#sessaoUm {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #666;
+}
+.introducaoSessaum h2{
+  font-size: 45px;
+  font-weight: 300;
+
+}
+.introducaoSessaum h4{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  font-size: 21px;
+}
+.introducaoSessaum{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.clear{
+  clear: both;
+}
+#sessaoUm a{
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+  border: 1px solid #2651a8;
+  background-color: #2651a8;
+  color: #fff;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+#sessaoUm a:hover{
+  background-color: #fff;
+  color: #000;
+}
+#sessaoUm p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#sessaoDois{
+  width: 100%;
+  background-color: #2651a8;
+}
+#sessaoDois h6{
+  color: white;
+}
+.text-center {
+    text-align: center;
+}
+#Eventos img
+{
+  width: 100%;
+  height: 100%;
+}
+#Eventos h2
+{
+  color: white;
+
+}
+#empresa-logo {
+    padding: 20px;
+    display: inline-block;
+}
+#tabelaDados
+  {
+    color: white;
+    margin-bottom: 200px;
+  }
+#tabelaDados p
+  {
+      padding-top: 100px;
+      font-size: 20px;
+    }
+#tabelaDados h2
+  {
+    font-size: 30px;
+  }
+.IntroDois{
+  text-align: center;
+}
+.IntroDois h5{
+  padding-top:100px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+.IntroDois p{
+  color: #fff;
+  opacity: 0.5;
+  font-size: 25px;
+  font-weight: 100;;
+}
+.texto{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.texto p {
+  font-family: Arial;
+  color: #fff;
+    opacity: 0.8;
+  font-size: 18px;
+}
+#corFundo
+  {
+    background: black;
+  }
+.texto a{
+ text-decoration: none;
+ display: inline-block;
+ margin-top: 50px;
+ background-color: #fff;
+ color: #2651a8;
+ padding: 25px 50px;
+ border-radius: 10px;
+
+}
+.img {
+    float: left;
+    width: 33.333%;
+}
+.img:hover {
+    border: 1px solid #0066cc;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+#mej h1
+{
+  text-align: center;
+  color: white;
+}
+.col-md-6 h2
+  {
+    color: grey;
+  }
+  .col-md-6 p
+    {
+      color: #0066cc;
+    }
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.logo_rodape
+  {
+    padding-top: 100px;
+    text-align: center;
+  }
+footer{
+  width: 100%;
+  background-color: black;
+  text-align: center;
+
+}
+footer p{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 1em;
+  color: white;
+  opacity: 0.5;
+}
+.escurece{
+  color: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#fundoHome
+  {
+    background-image: url("imagens/fundo.jpg");
+  }
+#fundoEventos
+  {
+    background-image: url("background2.png");
+  }
+.transparenciaFundo{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.Informacoes h3
+  {
+    color: #0066cc;
+  }
+
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica';
+}
+/*Nav bar do site*/
+#navbarTopo{
+  padding-top: 20px;
   padding-bottom: 40px;
   width: 900px;
   margin: 0px auto;
@@ -314,19 +686,30 @@ float: left;
     padding-top: 100px;
     text-align: center;
   }
-footer{
-  width: 100%;
-  background-color: black;
-  text-align: center;
+  footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  .logo_rodape img{
+    width: 300px;
+    float: left;
+    padding-left: 20px;
 
-}
-footer p{
-  padding-top: 80px;
-  padding-bottom: 80px;
-  font-size: 1em;
-  color: white;
-  opacity: 0.5;
-}
+  }
+  footer p{
+    padding-top:30px;
+  }
+  #barrinha_footer{
+    width: 5px;
+    height: 60px;
+    background-color: #fff;
+    margin-left: 400px;
+    margin-top: 30px;
+    position: absolute;
+  }
 .escurece{
   color: #fff;
 }
